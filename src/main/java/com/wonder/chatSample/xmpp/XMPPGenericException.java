@@ -1,0 +1,1 @@
+package com.wonder.chatSample.xmpp;public class XMPPGenericException extends RuntimeException {    private static final String MESSAGE = "Something went wrong when connecting to the XMPP server with username '%s'.";    public XMPPGenericException(String s, Throwable e) {        super(String.format(MESSAGE, s), e);    }}
