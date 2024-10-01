@@ -1,4 +1,4 @@
 # chatSample
 independent chat sample project XMPP and Web Socket
 
-intal opne fore and configure 
+intal opne fire xmpp server and configure 
