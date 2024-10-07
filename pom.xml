@@ -34,11 +34,23 @@
 			<artifactId>spring-integration-xmpp</artifactId>
 			<version>6.3.1</version>
 		</dependency>
+<!--		smack-->
 		<dependency>
 			<groupId>org.igniterealtime.smack</groupId>
 			<artifactId>smack-tcp</artifactId>
 			<version>4.4.6</version>
 		</dependency>
+		<dependency>
+			<groupId>org.igniterealtime.smack</groupId>
+			<artifactId>smack-im</artifactId>
+			<version>4.4.6</version>
+		</dependency>
+		<dependency>
+			<groupId>org.igniterealtime.smack</groupId>
+			<artifactId>smack-extensions</artifactId>
+			<version>4.4.6</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.mybatis.spring.boot</groupId>
 			<artifactId>mybatis-spring-boot-starter</artifactId>
@@ -74,6 +86,13 @@
 			<artifactId>swagger-annotations</artifactId>
 			<version>1.6.2</version>
 		</dependency>
+<!--		socket io-->
+		<dependency>
+			<groupId>io.socket</groupId>
+			<artifactId>socket.io-server</artifactId>
+			<version>4.0.0</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
